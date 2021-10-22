@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Wide selection of modal dialogs styles and animations available."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio | Saichul Huda</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img src="img/foto1.png" alt="" width="200" class="display-4" />
+            <h1 style="color: white">Saichul Huda Romadlon</h1>
+            <p style="color: white">
+              | Android Developer | Web Developer | Photographer |
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+    <!-- Container Card CV DLL -->
+    <div class="container">
+      <div class="row info-panel">
+        <div class="col-md-3">
+          <div class="main-card mb-3 card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-table"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"
+                  />
+                </svg>
+                Curriculum Vitae
+              </h5>
+              <p class="card-text">
+                Click button detail for information about my curriculum vitae
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#cv"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="main-card mb-3 card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bank"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z"
+                  />
+                </svg>
+                Formal Education
+              </h5>
+              <p class="card-text">
+                Click button detail for information about my formal education
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#education"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="main-card mb-3 card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-building"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"
+                  />
+                  <path
+                    d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"
+                  />
+                </svg>
+                Employment History
+              </h5>
+              <p class="card-text">
+                Click button detail for information about my employment history
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#employment"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="main-card mb-3 card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-laptop"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"
+                  />
+                </svg>
+                Skill
+              </h5>
+              <p class="card-text">
+                Click button detail for information about my skill
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#skill"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- Akhir Card CV DLL -->
+    <!-- Modal CV -->
+    <div
+      class="modal fade"
+      id="cv"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Curriculum Vitae
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td>Name</td>
+                <td>: Saichul Huda Romadlon</td>
+              </tr>
+              <tr>
+                <td>Place, Date of Birth</td>
+                <td>: Surabaya, 22 February 1995</td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td>: Male</td>
+              </tr>
+              <tr>
+                <td>Marital Status</td>
+                <td>: Single</td>
+              </tr>
+              <tr>
+                <td>Last Education</td>
+                <td>: Bachelor I, Technical Information</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>: Perum.Muktisari blok BD/10, Jember</td>
+              </tr>
+              <tr>
+                <td>Phone Number</td>
+                <td>: +6282234827253</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>: saichulhuda1995@gmail.com</td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Education -->
+    <div
+      class="modal fade"
+      id="education"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Formal Education
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td>2002 - 2008</td>
+                <td>: Elementary School Kepatihan 01 Jember</td>
+              </tr>
+              <tr>
+                <td>2008 – 2011</td>
+                <td>: Junior High School 3 Jember</td>
+              </tr>
+              <tr>
+                <td>2011 – 2014</td>
+                <td>: Vocational High School 5 Jember</td>
+              </tr>
+              <tr>
+                <td>2015 – 2020</td>
+                <td>: Muhammadiyah University of Jember</td>
+              </tr>
+              <tr>
+                <td>GPA</td>
+                <td>: 3.42</td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Employment -->
+    <div
+      class="modal fade"
+      id="employment"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Employment History
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td rowspan="3">1.</td>
+                <td>Place</td>
+                <td>: House of Technology, Jember</td>
+              </tr>
+              <tr>
+                <td>Period</td>
+                <td>: September 2014 – July 2015</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>: Computer Technician</td>
+              </tr>
+            </table>
+            <hr />
+            <table class="table table-borderless">
+              <tr>
+                <td rowspan="3">2.</td>
+                <td>Place</td>
+                <td>: Data Bumi Indonesia, Surabaya</td>
+              </tr>
+              <tr>
+                <td>Period</td>
+                <td>: February 2021 – Now</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>: Programmer</td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Skill -->
+    <div
+      class="modal fade"
+      id="skill"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Skill</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td rowspan="5">Computer Skill</td>
+                <td rowspan="3">Programming</td>
+                <td>1. Java</td>
+              </tr>
+              <tr>
+                <td>2. Android</td>
+              </tr>
+              <tr>
+                <td>3. Website CodeIgniter</td>
+              </tr>
+              <tr>
+                <td colspan="2">Microcontroller</td>
+              </tr>
+              <tr>
+                <td colspan="2">Hardware Computer</td>
+              </tr>
+            </table>
+            <hr />
+            <table class="table table-borderless">
+              <tr>
+                <td rowspan="3">Photography</td>
+                <td rowspan="3">Category</td>
+                <td>Architecture Photography</td>
+              </tr>
+              <tr>
+                <td>Landscape Photography</td>
+              </tr>
+              <tr>
+                <td>Street Photography</td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <h5 class="text-title">Carrier Objective :</h5>
+            <p>To work in a dynamic company in IT/retail industry on</p>
+            <p>
+              development or consulting, where my analytical/technical skills,
+            </p>
+            <p>knowledge, and work experience are utilized.</p>
+          </div>
+          <div class="col-md-6">
+            <h5 class="text-title">Qualification Summary :</h5>
+            <p>- Able to coordinate and communicate with project team</p>
+            <p>- Have great motivation to learn new skills/technologies</p>
+            <p>
+              - Have excellent and broad knowledge of various computer
+              technologies
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- Akhir About Me -->
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="main-card mb-3 card">
+              <img src="img/epotensi.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">E-POTENSI</h5>
+                <p>
+                  E-POTENSI is a website for taxpayers to report local taxes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-card mb-3 card">
+              <img src="img/img3.JPG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Submarine Monument, Surabaya</h5>
+                <p>Selamat Datang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-card mb-3 card">
+              <img src="img/img4.JPG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Submarine Monument, Surabaya</h5>
+                <p>Selamat Datang</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- Akhir Portfolio -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <table class="table table-borderless">
+            <tr>
+              <td>Home</td>
+              <td>: Pondok Maritim Indah Blok P No.3, Surabaya</td>
+            </tr>
+            <tr>
+              <td>Office</td>
+              <td>: Ruko Pondok Maritim Indah Blok W No.10, Surabaya</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>: saichulhuda1995@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>: 082234827253</td>
+            </tr>
+          </table>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+    <!-- Footer -->
+    <footer class="text-white" style="background-color: #080326">
+      <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+          <span
+            >Copyright &copy; Portfolio by
+            <a href="https://www.facebook.com/adon.bomber">Saichul Huda</a>
+            2021</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
