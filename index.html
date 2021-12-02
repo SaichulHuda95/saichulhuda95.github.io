@@ -16,18 +16,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
 
     <!-- Font Google -->
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -75,7 +72,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <div class="row">
-          <div class="col text-center">
+          <div class="col text-center" data-aos="fade-in">
             <img src="img/foto1.png" alt="" width="200" class="display-4" />
             <h1 style="color: white">Saichul Huda Romadlon</h1>
             <p style="color: white">
@@ -87,7 +84,7 @@
     </div>
     <!-- Akhir Jumbotron -->
     <!-- Container Card CV DLL -->
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="row info-panel">
         <div class="col-md-3">
           <div class="main-card mb-3 card">
@@ -492,11 +489,11 @@
       <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2>About Me</h2>
+            <h2 data-aos="fade-down">About Me</h2>
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <h5 class="text-title">Carrier Objective :</h5>
             <p>To work in a dynamic company in IT/retail industry on</p>
             <p>
@@ -504,7 +501,7 @@
             </p>
             <p>knowledge, and work experience are utilized.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <h5 class="text-title">Qualification Summary :</h5>
             <p>- Able to coordinate and communicate with project team</p>
             <p>- Have great motivation to learn new skills/technologies</p>
@@ -523,12 +520,12 @@
       <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2>Portfolio</h2>
+            <h2 data-aos="fade-down">Portfolio</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="main-card mb-3 card">
+            <div class="main-card mb-3 card" data-aos="flip-right">
               <img src="img/epotensi.png" alt="" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">E-POTENSI</h5>
@@ -539,7 +536,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="main-card mb-3 card">
+            <div class="main-card mb-3 card" data-aos="flip-right">
               <img src="img/img3.JPG" alt="" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Submarine Monument, Surabaya</h5>
@@ -548,7 +545,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="main-card mb-3 card">
+            <div class="main-card mb-3 card" data-aos="flip-right">
               <img src="img/img4.JPG" alt="" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Submarine Monument, Surabaya</h5>
@@ -566,10 +563,10 @@
       <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 data-aos="fade-down">Contact Me</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-left">
           <table class="table table-borderless">
             <tr>
               <td>Home</td>
@@ -607,14 +604,18 @@
     </footer>
     <!-- Akhir Footer -->
 
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+
+    <!-- JS Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
   </body>
